@@ -1,0 +1,100 @@
+/* CASE COMPONENT */
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.Case {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 170px;
+    width: 120px;
+    background-color: ivory;
+    border: 1px solid gray;
+}
+
+.Case img {
+    height: 170px;
+    width: 120px;
+}
+
+/* MODAL COMPONENT */
+
+.ReactModal__Overlay,
+.ReactModal__Overlay--after-open {
+    display: flex;
+    justify-content: center;
+}
+
+.ReactModal__Content,
+.ReactModal__Content--after-open {
+    width: 100%; 
+    max-width: 330px;
+    inset: unset !important;
+    top: 9vh !important;
+    border-radius: 8px !important;
+    padding: 10px !important;
+}
+
+.modalContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    
+}
+
+.imageBook {
+    height: 210px;
+    width: 170px;
+    border:1px solid rgb(204, 204, 204);
+    border-radius: 3px;
+}
+
+.modalContainer h4 {
+    text-align: center;
+    margin: 5px !important;
+}
+
+.containerInfoBtn {
+    display: flex;
+    justify-content: center ;
+    align-content: center;
+}
+
+.infoBtn {
+    border-radius: 4px;
+}
+
+.closeBtn {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+/* FOOTER COMPONENT */
+
+.footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    height: 50px;
+    width: 100%;
+    color: rgba(228, 193, 193, 0.898);
+    background-image: linear-gradient(to top, #5b873695 0%, #004f3d9c 100%);
+}
+
+.footer a {
+    color: #e2c1b5;
+}
